@@ -3,9 +3,7 @@
 
 ## Tabela Customers
  
-Remover clientes duplicados, quando os seguintes campos tiverem o mesmo registro
-* company_name
-* contact_name
+Remover clientes duplicados, O cliente vai estar duplicado quando o *company_name* and *contact_name* estiverem duplicados
 
 ## Tabela employees
 
