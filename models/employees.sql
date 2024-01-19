@@ -19,4 +19,3 @@ select
     photo_path,
     salary
 from {{ source("sources", "employees") }}
-limit 10
