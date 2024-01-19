@@ -12,7 +12,7 @@ Criar colunas calculadas:
 * LenghtofService (hire_date)
 * Name (last_name + first_name)
 
-## Detalhes do Pedido
+## OrderDetails (utilizando a order_details e products)
 Criar colunas calculadas:
 * total (unit_price * quantity)
 * discount (total (products.unitprice * quantity))

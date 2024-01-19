@@ -9,7 +9,7 @@ sources:
       - name: products
       - name: suppliers
       - name: employees
-      - name: orders_details
+      - name: order_details
       - name: customers
       - name: orders
       - name: shippers
