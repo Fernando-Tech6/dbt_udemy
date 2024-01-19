@@ -1,6 +1,7 @@
 
 /**
 O cliente vai estar duplicado quando o company_name and contact_name estiverem duplicados.
+Utilizando o Row_Number para tratar os dados duplicados.
 **/
 
 WITH tb1
