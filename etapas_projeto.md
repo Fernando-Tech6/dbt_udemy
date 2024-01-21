@@ -26,6 +26,6 @@ Criar colunas calculadas:
 
 
 ## Particionamento
-
+Criar uma tabela com dados por ano.
 * Ano: order.order_date
-Cada ano um modelo!!
+Cada ano uma tabela!!
