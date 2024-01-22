@@ -6,6 +6,11 @@ name: 'my_new_project'
 version: '1.0.0'
 config-version: 2
 
+
+# Criando uma variável para utilizar nos models.
+vars:
+  category: Seafood
+
 # This setting configures which "profile" dbt uses for this project.
 profile: 'default'
 
@@ -41,6 +46,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 #     example:
 #       +materialized: table
 
+# Esses hooks estava sendo utilizado para habilitar o packages de geração de logs.
 # models:
 #   pre-hook: 
 #     - "{{logging.log_model_start_event}}"
