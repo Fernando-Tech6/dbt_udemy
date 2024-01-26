@@ -1,10 +1,14 @@
-Welcome to your new dbt project!
+# Projeto DBT + Redshift
 
-### Using the starter project
+Material do curso do professor Fernando Amaral.
+Contemplando os conceitos e comando básicos do DBT.
 
-Try running the following commands:
-- dbt run
-- dbt test
+Adicionado exemplos para criação:
+seeds
+models
+tests
+packages
+
 
 
 ### Resources:
