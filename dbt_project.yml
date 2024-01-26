@@ -48,7 +48,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 # # Esses hooks estavam sendo utilizado para habilitar o packages de geração de logs.
 models:
-#   pre-hook: "{{logging.log_model_start_event}}"
-#   post-hook: "{{logging.log_model_end_event()}}"
-    on-run-end:
-      - "{% if target.name == 'dev' %}{{ dbt_artifacts.upload_results(results) }}{% endif %}"
+    on-run-end: 
+      - "{% if target.name == 'prod' %}{{ dbt_artifacts.upload_results(results) }}{% endif %}"
