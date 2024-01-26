@@ -1,13 +1,13 @@
 # Projeto DBT + Redshift
 
 Material do curso do professor Fernando Amaral.
-Contemplando os conceitos e comando básicos do DBT.
+Contemplando os conceitos e comandos básicos do DBT.
 
-Adicionado exemplos para criação:
-seeds
-models
-tests
-packages
+Adicionado exemplos para criação de:
+- seeds
+- models
+- tests
+- packages
 
 
 
