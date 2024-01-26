@@ -46,7 +46,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 #     example:
 #       +materialized: table
 
-# Esses hooks estava sendo utilizado para habilitar o packages de geração de logs.
+# Esses hooks estavam sendo utilizado para habilitar o packages de geração de logs.
 # models:
 #   pre-hook: 
 #     - "{{logging.log_model_start_event}}"
